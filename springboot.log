@@ -1,0 +1,15 @@
+2019-11-06 16:05:19.595  INFO 22792 --- [main] com.leo.AppTest                          : Starting AppTest on DESKTOP-8H0N3EU with PID 22792 (started by UZI in D:\programme\codeworkspace\idea-workspace\dollar_parent)
+2019-11-06 16:05:19.601  INFO 22792 --- [main] com.leo.AppTest                          : No active profile set, falling back to default profiles: default
+2019-11-06 16:05:19.716  INFO 22792 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7b4c50bc: startup date [Wed Nov 06 16:05:19 CST 2019]; root of context hierarchy
+2019-11-06 16:05:24.617  INFO 22792 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-06 16:05:25.185  INFO 22792 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7b4c50bc: startup date [Wed Nov 06 16:05:19 CST 2019]; root of context hierarchy
+2019-11-06 16:05:25.608  INFO 22792 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.leo.controller.HelloController.hello()
+2019-11-06 16:05:25.617  INFO 22792 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-06 16:05:25.619  INFO 22792 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-06 16:05:25.693  INFO 22792 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-06 16:05:25.712  INFO 22792 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-06 16:05:27.212  INFO 22792 --- [main] com.leo.AppTest                          : Started AppTest in 8.675 seconds (JVM running for 11.723)
+2019-11-06 16:05:27.682  INFO 22792 --- [main] com.leo.AppTest                          : 这是info日志...
+2019-11-06 16:05:27.684  WARN 22792 --- [main] com.leo.AppTest                          : 这是warn日志...
+2019-11-06 16:05:27.685 ERROR 22792 --- [main] com.leo.AppTest                          : 这是error日志...
+2019-11-06 16:05:27.708  INFO 22792 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7b4c50bc: startup date [Wed Nov 06 16:05:19 CST 2019]; root of context hierarchy
