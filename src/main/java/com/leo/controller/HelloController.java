@@ -8,12 +8,18 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @author zll
  * @date 2019/11/4 13:19
  **/
-@ResponseBody
+
 @Controller
 public class HelloController {
 
+    @ResponseBody
     @RequestMapping("/hello")
     public String hello() {
         return "heool";
+    }
+
+    @RequestMapping("/success")
+    public String success() {
+        return "success";
     }
 }
