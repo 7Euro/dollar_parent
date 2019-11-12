@@ -9,6 +9,7 @@ import java.util.Locale;
 
 /**
  * @author Leo
+ * 可以在连接上携带区域信息
  */
 public class MylocaleResolver implements LocaleResolver {
     @Override
