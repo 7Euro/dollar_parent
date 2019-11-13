@@ -42,6 +42,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
+        <dependency><!--Jquery组件（前端） >在访问的时候只需要写webjars下面资源的名称即可 -->
+            <groupId>org.webjars</groupId>
+            <artifactId>jquery</artifactId>
+            <version>3.3.1</version>
+        </dependency>
+        <dependency><!--bootstrap组件（前端）>在访问的时候只需要写webjars下面资源的名称即可 -->
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>4.0.0</version>
+        </dependency>
     </dependencies>
 
     <!-- 这个插件，可以将应用打包成一个可执行的jar包 -->
